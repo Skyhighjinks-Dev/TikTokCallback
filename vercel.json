@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/callback.js": {
+      "runtime": "@vercel/node"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/auth/tiktok/callback",
+      "destination": "/api/callback"
+    }
+  ]
+}
